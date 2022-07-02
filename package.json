@@ -1,0 +1,24 @@
+{
+  "name": "hopehacks",
+  "version": "1.0.0",
+  "description": "Implementing a server to your project. Learning how to create APIs and using 3rd party APIs to acquire data. Connecting your project to database. Creating something that you would like to Implement into our community.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanhdzx/HopeHacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanhdzx/HopeHacks/issues"
+  },
+  "homepage": "https://github.com/juanhdzx/HopeHacks#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.6",
+    "nodemailer-mailgun-transport": "^2.1.4"
+  }
+}

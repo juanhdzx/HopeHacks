@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5584AC;
+}
+
+h1 {
+    color: #F6F2D4;
+}
+
+form {
+    position: relative;
+    top: 10vh;
+    max-width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    color: darkolivegreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: 5px
+}

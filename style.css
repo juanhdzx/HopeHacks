@@ -1,1 +1,83 @@
+* {
+    margin: 0;
+    /* color: #22577E; */
+}
 
+#body {
+    color: #22577E;
+    background-color: #5584AC;
+}
+
+  /* Centered text */
+.centered {
+    color: #F6F2D4;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.top {
+    
+    background-color: #333;
+}
+
+.image {
+    
+    background-image: url("covid5.jpg");
+    opacity: 70%;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    
+    position: absolute;
+    margin: 20px;
+    margin-right: 20px;
+    width: 100%;
+    
+}
+
+.title {
+    float: left;
+}
+
+.logo {
+    
+    border-radius: 50px;
+}
+
+.nav {
+    border: solid black 2px;
+    padding: 20px;
+    background-color: #95D1CC;
+    float: right;
+    position: 0;
+}
+
+.sect {
+    border-radius: 30px;
+    background-color: #F6F2D4;
+    margin: 100px;
+    min-height: 200px;
+    font-family: Georgia, serif;
+    position: relative;
+}
+
+.para {
+    padding: 50px;
+    
+}
+
+p {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}

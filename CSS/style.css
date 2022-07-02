@@ -27,7 +27,7 @@
 
 .image {
     
-    background-image: url("covid5.jpg");
+    background-image: url("/IMG/covid5.jpg");
     opacity: 70%;
     min-height: 500px;
     background-position: center;

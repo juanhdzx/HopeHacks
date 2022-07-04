@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    /* color: #22577E; */
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
 }
 
 #body {
@@ -8,7 +9,6 @@
     background-color: #5584AC;
 }
 
-  /* Centered text */
 .centered {
     color: #F6F2D4;
     font-weight: bold;
@@ -29,57 +29,50 @@
 }
 
 .image {
-    
-    background-image: url("/IMG/covid5.jpg");
+    background-image: url(/IMG/covid5.jpg);
     opacity: 70%;
     min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url(/covid5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
 }
 
 .container {
-    
-    position: absolute;
-
-    /* margin: 20px;
-    margin-right: 20px; */
     padding: 20px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
-
-    margin: 20px;
-    margin-right: 20px;
-    width: 100%;
-
-}
-
-.title {
-    /* float: left; */
+    background-color: transparent;
 }
 
 .logo {
-    
     border-radius: 50px;
 }
 
-.nav {
-    border: solid black 2px;
-    padding: 20px;
-    background-color: #95D1CC;
+h2{
+    display: inline-block;
+    color: rgb(48, 143, 244);
+    /* color: #22577E; */
+}
 
-    float: right;
+.nav a{
+    
+    padding: 15px;
+    background-color: transparent;
+    display: inline-block;
+    color: #F6F2D4;
+    /* color: rgb(48, 143, 244); */
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
 
-    /* float: right; */
-    position: 0;
+}
 
-
+.nav a:hover {
+    color: rgb(48, 143, 244);
 }
 
 .sect {

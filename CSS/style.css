@@ -17,7 +17,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 .top {
@@ -34,24 +37,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-image: url(/covid5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 .container {
     
     position: absolute;
-<<<<<<< HEAD:style.css
+
     /* margin: 20px;
     margin-right: 20px; */
     padding: 20px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
-=======
+
     margin: 20px;
     margin-right: 20px;
     width: 100%;
 
->>>>>>> 06bc70afe88beb5c40a213e8634a352ba380c850:CSS/style.css
 }
 
 .title {
@@ -67,8 +73,12 @@
     border: solid black 2px;
     padding: 20px;
     background-color: #95D1CC;
+
+    float: right;
+
     /* float: right; */
     position: 0;
+
 
 }
 

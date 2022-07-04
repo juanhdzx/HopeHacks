@@ -29,6 +29,18 @@ h2{
     border: solid black 2px;
     padding: 20px;
     background-color: #95D1CC;
+<<<<<<< HEAD:live.css
+=======
+    float: right;
+    position: 0;
+
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+>>>>>>> 06bc70afe88beb5c40a213e8634a352ba380c850:CSS/live.css
 }
 
 header {
@@ -78,9 +90,14 @@ main {
 
 p{
     font-size: 1.5rem;
+<<<<<<< HEAD:live.css
 }
 
 .info-list{
     background-color: #F6F2D4;
     padding: 20px;
+=======
+
+
+>>>>>>> 06bc70afe88beb5c40a213e8634a352ba380c850:CSS/live.css
 }

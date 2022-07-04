@@ -30,6 +30,7 @@
 
 .image {
     
+    background-image: url("/IMG/covid5.jpg");
     opacity: 70%;
     min-height: 500px;
     background-position: center;
@@ -48,6 +49,7 @@
     margin: 20px;
     margin-right: 20px;
     width: 100%;
+
 }
 
 .title {

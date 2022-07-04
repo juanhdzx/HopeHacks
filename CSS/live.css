@@ -8,12 +8,24 @@ body {
     background-color: #5584AC;
 }
 
+.covidImage{
+	opacity: 70%;
+    height: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    background-image: url(/IMG/covidvirus.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .container {
     padding: 20px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-color: #333;
+    background-color: transparent;
 }
 
 .logo {
@@ -22,25 +34,24 @@ body {
 
 h2{
     display: inline-block;
+    color: white;
+    /* color: #22577E; */
+}
+
+.nav a{
+    
+    padding: 15px;
+    background-color: transparent;
+    display: inline-block;
     color: #22577E;
-}
-
-.nav {
-    border: solid black 2px;
-    padding: 20px;
-    background-color: #95D1CC;
-<<<<<<< HEAD:live.css
-=======
-    float: right;
-    position: 0;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
 
 }
 
-* {
-	margin: 0;
-	box-sizing: border-box;
-    font-family: Noto Sans, sans-serif;
->>>>>>> 06bc70afe88beb5c40a213e8634a352ba380c850:CSS/live.css
+.nav a:hover {
+    color: rgb(154, 151, 151);
 }
 
 header {
@@ -90,14 +101,9 @@ main {
 
 p{
     font-size: 1.5rem;
-<<<<<<< HEAD:live.css
 }
 
 .info-list{
-    background-color: #F6F2D4;
-    padding: 20px;
-=======
-
-
->>>>>>> 06bc70afe88beb5c40a213e8634a352ba380c850:CSS/live.css
+    background-color: #5584AC;
+    /* padding: 20px; */
 }

@@ -17,7 +17,11 @@ fetch(url)
 
     .then(data => {
        const info = (data.actuals)
-       
+
+       const icuCovidUsage =(data.actuals.icuBeds)
+
+       const hospitalBedCovidUsage = (data.actuals.hospitalBeds)
+
        console.log(data.actuals["cases"])
         document.querySelector('.stat1').innerText = `Cases: ${info["cases"]}`
         document.querySelector('.stat2').innerText = `Deaths: ${info["deaths"]}`
@@ -26,7 +30,10 @@ fetch(url)
         document.querySelector('.stat5').innerText = `New Cases: ${info["newCases"]}`
         document.querySelector('.stat6').innerText = `New Deaths: ${info["newDeaths"]}`
         document.querySelector('.stat7').innerText = `Vaccinations Completed: ${info["vaccinationsCompleted"]}`
-        // document.querySelector('h3').innerText = `deaths: ${info["deaths"]}`
+        document.querySelector('.stat8').innerText = `Hospital Beds: ${hospitalBedCovidUsage["currentUsageCovid"]}`
+        document.querySelector('.stat9').innerText = `Contact Tracers: ${info["contactTracers"]}`
+        document.querySelector('.stat10').innerText = `ICU Beds: ${icuCovidUsage["currentUsageCovid"]}`
+        document.querySelector('.state-input').innerText = `Numbers for ${chosenState}`
     })
 
     .catch(err => {

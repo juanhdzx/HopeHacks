@@ -38,4 +38,64 @@ body {
     background-color: #95D1CC;
     float: right;
     position: 0;
+
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+}
+
+
+
+header {
+	padding: 3rem 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 4rem auto;
+    background-color: #22577E;
+    border-radius: 1rem;
+}
+
+header h1{ 
+	font-size: 1.6rem;
+	font-weight: 200;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+#state-input-form {
+	display: flex;;
+}
+
+#get-info-btn {
+    padding:5px;
+}
+
+#state-input {
+	flex: 1 1 0%;
+	background-color: #F6F2D4;
+	padding: 1.5rem;
+	margin-right: 1rem;
+	color: rgb(59, 60, 59);
+	font-size: 1.25rem;
+    border-radius: 1rem;
+}
+
+#state-input::placeholder {
+	color: rgb(198, 195, 195);
+}
+
+main {
+	flex: 1 1 0%;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h3{
+    font-size: 1.5rem;
+
+
 }

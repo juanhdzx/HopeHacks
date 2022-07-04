@@ -1,53 +1,58 @@
 * {
     margin: 0;
-    
+	box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
 }
 
 body {
     background-color: #5584AC;
 }
 
-.top {
-    
-    height: 100px;;
-    background-color: #333;
+.covidImage{
+	opacity: 70%;
+    height: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    background-image: url(/IMG/covidvirus.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
-    display: inline-block;
-    position: absolute;
-    margin: 20px;
-    margin-right: 20px;
-    width: 100%;
-    
-}
-
-.title {
-    float: left;
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
 }
 
 .logo {
-    
     border-radius: 50px;
 }
 
-.nav {
-    max-width: 100%;
-    border: solid black 2px;
-    padding: 20px;
-    background-color: #95D1CC;
-    float: right;
-    position: 0;
+h2{
+    display: inline-block;
+    color: white;
+    /* color: #22577E; */
+}
+
+.nav a{
+    
+    padding: 15px;
+    background-color: transparent;
+    display: inline-block;
+    color: #22577E;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
 
 }
 
-* {
-	margin: 0;
-	box-sizing: border-box;
-    font-family: Noto Sans, sans-serif;
+.nav a:hover {
+    color: rgb(154, 151, 151);
 }
-
-
 
 header {
 	padding: 3rem 1rem;
@@ -94,8 +99,11 @@ main {
 	margin: 0 auto;
 }
 
-h3{
+p{
     font-size: 1.5rem;
+}
 
-
+.info-list{
+    background-color: #5584AC;
+    /* padding: 20px; */
 }

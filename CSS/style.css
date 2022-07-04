@@ -39,14 +39,23 @@
 .container {
     
     position: absolute;
+<<<<<<< HEAD:style.css
+    /* margin: 20px;
+    margin-right: 20px; */
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+=======
     margin: 20px;
     margin-right: 20px;
     width: 100%;
 
+>>>>>>> 06bc70afe88beb5c40a213e8634a352ba380c850:CSS/style.css
 }
 
 .title {
-    float: left;
+    /* float: left; */
 }
 
 .logo {
@@ -58,7 +67,7 @@
     border: solid black 2px;
     padding: 20px;
     background-color: #95D1CC;
-    float: right;
+    /* float: right; */
     position: 0;
 
 }

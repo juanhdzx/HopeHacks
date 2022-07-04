@@ -38,6 +38,7 @@ body {
     background-color: #95D1CC;
     float: right;
     position: 0;
+
 }
 
 * {
@@ -95,4 +96,6 @@ main {
 
 h3{
     font-size: 1.5rem;
+
+
 }

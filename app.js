@@ -1,32 +1,45 @@
-document.querySelector('button').addEventListener('click',getFetch)
+var express=require("express");
+var bodyParser=require("body-parser");
 
-const chosenState= document.querySelector('input').value;
+const mongoose = require('mongoose');
+mongoose.connect('mongodb+srv://root:Password@hopehack.g8olv.mongodb.net/?retryWrites=true&w=majority');
+var db=mongoose.connection;
+db.on('error', console.log.bind(console, "connection error"));
+db.once('open', function(callback){
+   console.log("connection succeeded");
+})
+var app=express();
 
+app.use(bodyParser.json());
+app.use(express.static('public'));
+app.use(bodyParser.urlencoded({
+   extended: true
+}));
 
-function getFetch(){
-    const chosenState= document.querySelector('input').value.toUpperCase();
-    const url =  `https://api.covidactnow.org/v2/state/${chosenState}.json?apiKey=c907fda3da124bc8b327d6fd7ee968da`
+app.post('/sign_up', function(req,res){
+   var name = req.body.name;
+   var email =req.body.email;
+   var pass = req.body.password;
+   var phone =req.body.phone;
 
-fetch(url)
+   var data = {
+      "name": name,
+      "email":email,
+      "password":pass,
+      "phone":phone
+   }
+   db.collection('details').insertOne(data,function(err, collection){
+   if (err) throw err;
+      console.log("Record inserted Successfully");
+   });
+   return res.redirect('success.html');
+})
 
-    .then(res => res.json()) 
-    // .then(res => {
-    //     console.log(res.json().actuals)
+app.get('/',function(req,res){
+   res.set({
+      'Access-control-Allow-Origin': '*'
+   });
+   return res.redirect('subs.html');
+}).listen(3000)
 
-    
-
-    .then(data => {
-       const info = (data.actuals)
-       
-       console.log(data.actuals["cases"])
-        document.querySelector('h3').innerText = `Cases: ${info["cases"]}, Deaths: ${info["deaths"]}, Positive Test: ${info["positiveTests"]}, Negative Test: ${info["negativeTests"]}, New Cases: ${info["newCases"]}, New Deaths: ${info["newDeaths"]}, Vaccinations Completed ${info["vaccinationsCompleted"]}`
-        // document.querySelector('h3').innerText = `deaths: ${info["deaths"]}`
-    })
-
-    .catch(err => {
-
-        console.log(`error ${err}`)
-
-    });
-}
-
+console.log("server listening at port 3000");

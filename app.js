@@ -19,7 +19,13 @@ fetch(url)
        const info = (data.actuals)
        
        console.log(data.actuals["cases"])
-        document.querySelector('h3').innerText = `Cases: ${info["cases"]}, Deaths: ${info["deaths"]}, Positive Test: ${info["positiveTests"]}, Negative Test: ${info["negativeTests"]}, New Cases: ${info["newCases"]}, New Deaths: ${info["newDeaths"]}, Vaccinations Completed ${info["vaccinationsCompleted"]}`
+        document.querySelector('.stat1').innerText = `Cases: ${info["cases"]}`
+        document.querySelector('.stat2').innerText = `Deaths: ${info["deaths"]}`
+        document.querySelector('.stat3').innerText = `Positive Test: ${info["positiveTests"]}`
+        document.querySelector('.stat4').innerText = `Negative Test: ${info["negativeTests"]}`
+        document.querySelector('.stat5').innerText = `New Cases: ${info["newCases"]}`
+        document.querySelector('.stat6').innerText = `New Deaths: ${info["newDeaths"]}`
+        document.querySelector('.stat7').innerText = `Vaccinations Completed: ${info["vaccinationsCompleted"]}`
         // document.querySelector('h3').innerText = `deaths: ${info["deaths"]}`
     })
 

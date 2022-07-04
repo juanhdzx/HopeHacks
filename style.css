@@ -39,13 +39,16 @@
 .container {
     
     position: absolute;
-    margin: 20px;
-    margin-right: 20px;
-    width: 100%;
+    /* margin: 20px;
+    margin-right: 20px; */
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
-    float: left;
+    /* float: left; */
 }
 
 .logo {
@@ -57,7 +60,7 @@
     border: solid black 2px;
     padding: 20px;
     background-color: #95D1CC;
-    float: right;
+    /* float: right; */
     position: 0;
     
 }

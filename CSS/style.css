@@ -46,6 +46,14 @@
 .container {
     
     position: absolute;
+
+    /* margin: 20px;
+    margin-right: 20px; */
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
     margin: 20px;
     margin-right: 20px;
     width: 100%;
@@ -53,7 +61,7 @@
 }
 
 .title {
-    float: left;
+    /* float: left; */
 }
 
 .logo {
@@ -65,7 +73,13 @@
     border: solid black 2px;
     padding: 20px;
     background-color: #95D1CC;
+
     float: right;
+
+    /* float: right; */
+    position: 0;
+
+
 }
 
 .sect {

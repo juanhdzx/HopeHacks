@@ -34,7 +34,7 @@ body {
 
 h2{
     display: inline-block;
-    color: white;
+    color:#F6F2D4;
     /* color: #22577E; */
 }
 
@@ -51,7 +51,7 @@ h2{
 }
 
 .nav a:hover {
-    color: rgb(154, 151, 151);
+    color: #F6F2D4;
 }
 
 header {
@@ -90,6 +90,11 @@ header h1{
 
 #state-input::placeholder {
 	color: rgb(198, 195, 195);
+}
+
+.state-input{
+    color: #F6F2D4;
+    padding-bottom:20px;
 }
 
 main {

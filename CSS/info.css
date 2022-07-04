@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+}
+
+body {
+    background-color: #5584AC;
+}
+
+.top {
+    
+    height: 100px;;
+    background-color: #333;
+}
+
+.container {
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo {
+    border-radius: 50px;
+}
+
+h2{
+    display: inline-block;
+    color:#F6F2D4;
+}
+
+.nav a{
+    padding: 15px;
+    background-color: transparent;
+    display: inline-block;
+    color: #22577E;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.nav a:hover {
+    color: #F6F2D4;
+}

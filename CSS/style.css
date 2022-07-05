@@ -83,8 +83,22 @@ h2{
     position: relative;
 }
 
+.mid, ul {
+    font-size: 20px;
+}
+
 .para {
     padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid {
+    list-style: none;
+}
+
+.symptom {
+    font-weight: bold;
     
 }
 

@@ -1,15 +1,66 @@
 * {
-    margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Noto Sans, sans-serif;
 }
 
-/* .container {
-    display: inline-block;
-    position: absolute;
-    margin: 20px;
-    margin-right: 20px;
-    width: 100%;
-    
+body {
+  background-color: #5584AC;
+  height: 140vh;
+  width: 100vw;
+  
+}
+.main {
+  margin-bottom: 400px;
+}
+/* .top {
+  
+  height: 100px;;
+  background-color: #333;
 } */
+
+.container {
+  padding: 25px;
+  width: 115vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  
+}
+
+/* Logo CSS */
+.logo {
+  border-radius: 50px;
+ 
+
+}
+#brand {
+  color: rgb(209, 22, 22);
+}
+
+
+h2{
+  /* display: inline-block; */
+  color:#070606;
+  font-weight: bold;
+}
+
+.nav a{
+  padding: 10px;
+  background-color: transparent;
+  display: inline-block;
+  color: #22577E;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+
+}
+
+.nav a:hover {
+  color: #151413;
+}
+
+
 .image {
     opacity: 70%;
     height: 45vw;
@@ -22,9 +73,11 @@
     background-attachment: fixed;
 }
 /* main title css */
-.centered {
+ .centered {
     color: #F6F2D4;
+    width: 40vw;
     font-weight: bold;
+    font-family: Noto Sans, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,10 +87,10 @@
     padding: 2rem;
     border-radius: 25px;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
-}
+} 
 
 /* logo css */ 
-.logo {
+/* .logo {
     border-radius: 50px;
 }
 .title {
@@ -62,19 +115,21 @@ body {
     width: 100vw;
     background-color: #5584AC;
 }
-
+*/
 h1 {
-    color: #F6F2D4;
-    text-align: center;
-    /* margin-top: 20px; */
+    color: rgb(241, 233, 233);
+    text-align: center; 
+     margin-top: 20px; 
 
 }
+
 h4 {
     text-align: center;
 }
 p {
     color: #F6F2D4;
 }
+
 
 form {
     position: relative;
@@ -100,15 +155,18 @@ input {
   }
   #text {
       width: 99%;
-  }
+  } 
 
   /* card/ paragraph css */ 
 
-  .cards {
+.cards {
     max-width: 1200px;
     margin: auto;
     display: grid;
     grid-gap: 1rem;
+    font-style: oblique;
+    word-spacing: 3px;
+   
   }
   
   .cards h3 {
@@ -133,8 +191,7 @@ input {
 
 
 
-
-
+ 
 
 
 /* media responsiveness */ 
@@ -152,6 +209,10 @@ input {
   
   /* AT 900px WIDE */
   @media (min-width: 900px) {
+
+  } 
+
   }
 
   
+

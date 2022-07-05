@@ -35,6 +35,9 @@ app.post('/sign_up', function(req,res){
    return res.redirect('success.html');
 })
 
+// respond with status 200
+//confirmation 
+
 app.get('/',function(req,res){
    res.set({
       'Access-control-Allow-Origin': '*'
@@ -42,5 +45,14 @@ app.get('/',function(req,res){
    return res.redirect('subs.html');
 }).listen(3000)
 
+//path for logo
+app.get('/IMG/COVID.png', (req, res) => {
+    res.sendFile('/Users/juanhdz/Documents/HopeHacks/IMG/COVID.png');
+});
+
+//path for bg image 
+app.get('/cov-ex.jpg', (req, res) => {
+    res.sendFile('/Users/juanhdz/Documents/HopeHacks/cov-ex.jpg');
+});
 
 

@@ -19,24 +19,67 @@ body {
   background-color: #333;
 } */
 
-.container {
+/* .container {
   padding: 25px;
   width: 115vw;
   display: flex;
   justify-content: space-between;
   background-color: transparent;
   
+} */
+
+.container1 {
+  padding: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
 }
 
-/* Logo CSS */
 .logo {
   border-radius: 50px;
- 
+}
+
+#logo-name {
+  display: inline-block;
+  color:black;
+  /* color: #1932f2; */
+  font-weight: bold;
 
 }
-#brand {
-  color: rgb(209, 22, 22);
+
+.nav a{
+  
+  padding: 15px;
+  background-color: transparent;
+  display: inline-block;
+  color: #22577E;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+
 }
+
+.nav a:hover {
+  color: #F6F2D4;
+}
+
+ /* #logo-name{
+  display: inline-block;
+  color:#F6F2D4;
+  font-size: 23px;
+  color: #22577E; 
+} */
+
+/* Logo CSS */ */
+/* .logo {
+  border-radius: 50px; 
+} */
+
+/* #logo-name{
+  color: #95D1CC;
+  display: inline-block;
+} */
 
 
 h2{
@@ -209,4 +252,53 @@ input {
   
   /* AT 900px WIDE */
   @media (min-width: 900px) {
+
+
   } 
+
+  }
+
+ footer{
+  background-color: #22577E;
+} 
+
+  .footer-basic {
+    padding:10px 0;
+    background-color: #22577E;
+}
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom: 0;
+  }
+  
+  .footer-basic .social > a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+    margin:0 8px;
+    color: #F6F2D4;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:10px;
+    text-align:center;
+    font-size:13px;
+    color:#F6F2D4;
+    margin-bottom: 0;
+  }
+  
+
+  
+
+
+  } 
+

@@ -56,7 +56,7 @@ app.get('/cov-ex.jpg', (req, res) => {
 });
 
 
-
+//
 // 3rd part API
 // console.log("server listening at port 3000");
 // document.querySelector('button').addEventListener('click',getFetch)

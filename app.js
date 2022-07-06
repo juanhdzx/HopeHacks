@@ -64,7 +64,8 @@ app.get('/contact',function(req,res){
       'Access-control-Allow-Origin': '*'
    });
    return res.redirect('/subs.html');
-}).listen(process.env.PORT || 3000)
+});
+
 
 //path for logo
 app.get('/IMG/COVID.png', (req, res) => {
@@ -77,4 +78,6 @@ app.get('/cov-ex.jpg', (req, res) => {
 });
 
 
-
+app.listen((process.env.PORT || 3000), () => {
+  console.log(`Example app listening on port whatever`);
+});

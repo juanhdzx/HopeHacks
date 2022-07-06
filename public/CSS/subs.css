@@ -14,7 +14,6 @@ body {
   margin-bottom: 400px;
 }
 
-
 .container1 {
   padding: 20px;
   width: 100vw;
@@ -30,13 +29,10 @@ body {
 #logo-name {
   display: inline-block;
   color:black;
-  /* color: #1932f2; */
   font-weight: bold;
-
 }
 
 .nav a{
-  
   padding: 15px;
   background-color: transparent;
   display: inline-block;
@@ -44,18 +40,10 @@ body {
   text-decoration: none;
   font-size: 23px;
   font-weight: bold;
-
 }
 
 .nav a:hover {
   color: #F6F2D4;
-}
-
-
-h2{
-  /* display: inline-block; */
-  color:#070606;
-  font-weight: bold;
 }
 
 .nav a{
@@ -66,13 +54,11 @@ h2{
   text-decoration: none;
   font-size: 23px;
   font-weight: bold;
-
 }
 
 .nav a:hover {
   color: #151413;
 }
-
 
 .image {
     opacity: 70%;
@@ -81,10 +67,11 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     position: center;
-    background-image: url(/cov-ex.jpg);
+    background-image: url(/IMG/cov-ex.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 /* main title css */
  .centered {
     color: #F6F2D4;
@@ -140,12 +127,12 @@ input {
     border: none;
     border-bottom: 2px solid skyblue;
   }
+
   #text {
       width: 99%;
   } 
 
   /* card/ paragraph css */ 
-
 .cards {
     max-width: 1200px;
     margin: auto;
@@ -153,7 +140,6 @@ input {
     grid-gap: 1rem;
     font-style: oblique;
     word-spacing: 3px;
-   
   }
   
   .cards h3 {
@@ -176,22 +162,15 @@ input {
     border-radius: 10px;
   }
 
-
-
- 
-
-
 /* media responsiveness */ 
   /* AT 600px WIDE */
 @media (min-width: 600px) {
 
     /* ABOUT */
-  
     .cards { 
       grid-template-columns: repeat(2, 1fr);
       padding: 1rem;
     }
-  
   }
   
   /* AT 900px WIDE */

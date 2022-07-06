@@ -209,14 +209,39 @@ input {
   
   /* AT 900px WIDE */
   @media (min-width: 900px) {
-
-
-  } 
-
   }
 
+  .footer-basic {
+    padding:10px 0;
+    background-color: #22577E;
+}
   
-
-
-  } 
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom: 0;
+  }
+  
+  .footer-basic .social > a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+    margin:0 8px;
+    color: #F6F2D4;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:10px;
+    text-align:center;
+    font-size:13px;
+    color:#F6F2D4;
+    margin-bottom: 0;
+  }
 

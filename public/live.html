@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/live.css">
+    <title>Covid Update</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+</head>
+<body>
+    <div class="covidImage">
+        <div class="container">
+            <div class="title">
+                <img class="logo" src="IMG/COVID.png" alt="logo.jpg" width="80px" height="80px">
+                <h2>CovidHealth</h2>
+            </div>
+            <div class="nav">
+                <a href="/">Home</a>
+                <a href="/live">Live Tracker</a>
+                <a href="/contact">More Info/Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1>LEARN MORE ABOUT YOUR STATE'S COVID NUMBERS HERE</h1>
+
+        <form id="state-input-form">
+			<input 
+				type="text" 
+				name="state-input" 
+				id="state-input" 
+				placeholder="Enter your state abbreviation here" />
+		</form>
+        <button id="get-info-btn">
+            GET INFO
+        </button>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="state-input"></h2>
+        </section>
+      
+		<section class="info-list">
+            <!-- <h3></h3> -->
+			<p class="stat1"></p>
+            <br>
+            <p class="stat2"></p>
+            <br>
+            <p class="stat3"></p>
+            <br>
+            <p class="stat4"></p>
+            <br>
+            <p class="stat5"></p>
+            <br>
+            <p class="stat6"></p>
+            <br>
+            <p class="stat7"></p>
+            <br>
+            <p class="stat8"></p>
+            <br>
+            <p class="stat9"></p>
+            <br>
+            <p class="stat10"></p>
+		</section>
+	</main>
+
+
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <p class="copyright">Covid Health &copy; 2022</p>
+        </footer>
+    </div>
+
+    <script src="java.js"></script>
+
+</body>
+</html>

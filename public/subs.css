@@ -13,30 +13,68 @@ body {
 .main {
   margin-bottom: 400px;
 }
-/* .top {
-  
-  height: 100px;;
-  background-color: #333;
-} */
 
-.container {
+/* .container {
   padding: 25px;
   width: 115vw;
   display: flex;
   justify-content: space-between;
   background-color: transparent;
   
+} */
+
+.container1 {
+  padding: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
 }
 
-/* Logo CSS */
 .logo {
   border-radius: 50px;
- 
+}
+
+#logo-name {
+  display: inline-block;
+  color:black;
+  /* color: #1932f2; */
+  font-weight: bold;
 
 }
-#brand {
-  color: rgb(209, 22, 22);
+
+.nav a{
+  
+  padding: 15px;
+  background-color: transparent;
+  display: inline-block;
+  color: #22577E;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+
 }
+
+.nav a:hover {
+  color: #F6F2D4;
+}
+
+ /* #logo-name{
+  display: inline-block;
+  color:#F6F2D4;
+  font-size: 23px;
+  color: #22577E; 
+} */
+
+/* Logo CSS */ 
+/* .logo {
+  border-radius: 50px; 
+} */
+
+/* #logo-name{
+  color: #95D1CC;
+  display: inline-block;
+} */
 
 
 h2{
@@ -89,33 +127,7 @@ h2{
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
 } 
 
-/* logo css */ 
-/* .logo {
-    border-radius: 50px;
-}
-.title {
-    margin-left: 20px;
-}
 
-.nav {
-    border: solid black 2px;
-    padding: 20px;
-    background-color: #95D1CC;
-    float: right;
-    position: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:rgba(0, 0, 0, 0.7);
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-body {
-    height: 140vh;
-    width: 100vw;
-    background-color: #5584AC;
-}
-*/
 h1 {
     color: rgb(241, 233, 233);
     text-align: center; 
@@ -209,14 +221,74 @@ input {
   
   /* AT 900px WIDE */
   @media (min-width: 900px) {
-
-
-  } 
-
   }
 
+ footer{
+  background-color: #22577E;
+} 
+
+  .footer-basic {
+    padding:10px 0;
+    background-color: #22577E;
+}
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom: 0;
+  }
+  
+  .footer-basic .social > a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+    margin:0 8px;
+    color: #F6F2D4;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:10px;
+    text-align:center;
+    font-size:13px;
+    color:#F6F2D4;
+    margin-bottom: 0;
+  }
   
 
-
-  } 
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom: 0;
+  }
+  
+  .footer-basic .social > a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+    margin:0 8px;
+    color: #F6F2D4;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:10px;
+    text-align:center;
+    font-size:13px;
+    color:#F6F2D4;
+    margin-bottom: 0;
+  }
 

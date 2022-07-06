@@ -63,7 +63,7 @@ app.get('/contact',function(req,res){
    res.set({
       'Access-control-Allow-Origin': '*'
    });
-   return res.redirect('subs.html');
+   return res.redirect('/subs.html');
 }).listen(3000)
 
 //path for logo

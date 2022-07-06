@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+}
+
+#body {
+    color: #22577E;
+    background-color: #5584AC;
+}
+
+.centered {
+    color: #F6F2D4;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.top {
+    
+    background-color: #333;
+}
+
+.image {
+    background-image: url(/IMG/covid5.jpg);
+    opacity: 70%;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo {
+    border-radius: 50px;
+}
+
+h2{
+    display: inline-block;
+    color: rgb(48, 143, 244);
+    /* color: #22577E; */
+}
+
+.nav a{
+    
+    padding: 15px;
+    background-color: transparent;
+    display: inline-block;
+    color: #F6F2D4;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.nav a:hover {
+    color: rgb(48, 143, 244);
+}
+
+.sect {
+    border-radius: 30px;
+    background-color: #F6F2D4;
+    margin: 100px;
+    min-height: 200px;
+    font-family: Georgia, serif;
+    position: relative;
+}
+
+.mid, ul {
+    font-size: 20px;
+}
+
+.para {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid {
+    list-style: none;
+}
+
+.symptom {
+    font-weight: bold;
+    
+}
+
+.info-link {
+    font-weight: bold;
+    color:#22577E;
+}
+
+p {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-basic {
+    padding:10px 0;
+    background-color: #22577E;
+}
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom: 0;
+  }
+  
+  .footer-basic .social > a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+    margin:0 8px;
+    color: #F6F2D4;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:10px;
+    text-align:center;
+    font-size:13px;
+    color:#F6F2D4;
+    margin-bottom: 0;
+  }
+  

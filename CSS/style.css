@@ -102,6 +102,11 @@ h2{
     
 }
 
+.info-link {
+    font-weight: bold;
+    color:#22577E;
+}
+
 p {
     position: relative;
     padding-left: 50px;

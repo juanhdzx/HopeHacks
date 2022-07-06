@@ -64,7 +64,7 @@ app.get('/contact',function(req,res){
       'Access-control-Allow-Origin': '*'
    });
    return res.redirect('/subs.html');
-}).listen(3000)
+}).listen(process.env.PORT || 3000)
 
 //path for logo
 app.get('/IMG/COVID.png', (req, res) => {
